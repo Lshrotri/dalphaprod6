@@ -13,8 +13,13 @@ import { DalphaportfolioComponent } from './dalphaportfolio/dalphaportfolio.comp
 import { ContactusComponent } from './contactus/contactus.component';
 import {SharedModule} from './shared.module';
 
+import {ResponsibilityComponent} from 'src/app/pages/responsibility/responsibility.component';
+import { DashboardComponent } from 'src/app/components/dashboard/dashboard.component';
+import { SigninComponent } from 'src/app/components/signin/signin.component';
+import { SignupComponent } from 'src/app/components/signup/signup.component';
+
 @NgModule({
-  declarations: [ StrategyComponent, PortfolioComponent, DisclaimersComponent, OurteamComponent, PortfolioCardComponent,  DalphateamComponent, DalphaportfolioComponent,  /*ContactusComponent*/],
+  declarations: [ StrategyComponent, DashboardComponent, SigninComponent,SignupComponent, ResponsibilityComponent, PortfolioComponent, DisclaimersComponent, OurteamComponent, PortfolioCardComponent,  DalphateamComponent, DalphaportfolioComponent,  /*ContactusComponent*/],
   imports: [
     CommonModule,
     FormsModule,
