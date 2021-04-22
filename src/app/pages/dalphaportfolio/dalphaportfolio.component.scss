@@ -11,6 +11,21 @@
         //margin: 75pt auto 0; // This was for the standalone projects page, but it can't be disabled on the home page through scss
 
         //height: 400pt; // As long as the paragraph's size is the same, this shouldn't be necessary
+        .new_project_img {
+
+            margin:auto;
+            padding:5pt;
+            height: 90pt;
+            display: flex;
+            justify-content: left;
+        }
+    
+
+
+
+
+
+
 
         .project_img {
 
@@ -27,6 +42,17 @@
             max-width: 180pt;
             margin: auto;
         }
+
+        .new {
+            height:90px;
+        }
+
+        .new1 {
+
+            height:80px;
+            width:150px;
+        }
+
 
     
     .a {
