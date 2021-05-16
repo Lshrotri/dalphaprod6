@@ -11,6 +11,7 @@ import {ResponsibilityComponent} from 'src/app/pages/responsibility/responsibili
 import { DashboardComponent } from 'src/app/components/dashboard/dashboard.component';
 import { SigninComponent } from 'src/app/components/signin/signin.component';
 import { SignupComponent} from 'src/app/components/signup/signup.component';
+import {PressComponent} from './press/press.component';
 
 const routes: Routes = [
   { path: '', loadChildren: './home/home.module#HomeModule' },
@@ -24,8 +25,8 @@ const routes: Routes = [
   {path:'responsibility', component: ResponsibilityComponent},
   {path:'dashboard', component: DashboardComponent},
   {path:'signin', component: SigninComponent},
-  {path:'signup', component: SignupComponent}
-
+  {path:'signup', component: SignupComponent},
+  {path:'press', component: PressComponent}
 
 ];
 
